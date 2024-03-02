@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prime chase page</title>
+    <link href="static/test.css" rel="stylesheet">
+
+    <link href="static/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+   <script>
+    function MyNabtex(){
+        document.getElementById('nabtex').innerHTML='The final NABTEX exams ends in the month of August  and registration start early next year';
+         
+    }
+    function MySchool(){
+       
+       document.getElementById('school').innerHTML='The school break is based on CTVET academic calender and it is tentative';
+        
+    }
+    function MyResume(){
+       
+       document.getElementById('resumes').innerHTML='school resumes on 17th September 2023';
+        
+    }
+    function MyPta(){
+       
+       document.getElementById('pta').innerHTML='The PTA is undertaking developmental project in the school. The project is under the construction of the building construction department';
+        
+    }
+    function Myteacher(){
+      
+      document.getElementById('teachers').innerHTML='Currently no workshop date is been confirmed';
+        
+    }
+    function MyExhibition(){
+        
+       document.getElementById('exhibition').innerHTML='We are going to witness students exhibition at the Fashion department this semester'; 
+    }
+   </script>
+    
+</head>
+<body>
+    <div class='container'>
+      <div class="">
+        <div class="navbar">
+            <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+            <a href="gallery.html"><i class="fa fa-image"></i> gallery</a> 
+            <a href="#"><i class="fa fa-fw fa-envelope"></i> About Us</a> 
+            <a href="#"><i class="fa fa-phone"></i> Contact Us</a>
+          </div>
+          <div id="logo" class="mt-1">
+          
+          <div >  <img src="static/logo.jpg" class="mx-auto d-block" style="width:12%" alt=" "><h4  class="text-center" style="color: rgb(9, 9, 95); font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">PRIME CHASE COMPANY LIMITED</h4>
+        </div>
+          <hr style="background-color: red;">
+          <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+          }
+          </script>
+          <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="static/civil24.jpg" style="width:100%">
+              <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="static/civil15.jpg" style="width:100%">
+              <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="static/civil26.jpg" style="width:100%">
+              <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">4 / 4</div>
+              <img src="static/civil25.jpg" style="width:100%">
+              <div class="text">Caption Three</div>
+            </div>
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            <hr>
+            <div class="text-center mt-2" style="color: coral;">Why Prime Chase ?</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quam minima itaque dolor adipisci deserunt voluptas. Ea labore dicta, obcaecati impedit similique maxime deleniti commodi quos qui, vel illum laborum?...</p>
+            <div class="container-fluid">
+              <h6>The C.E.O</h6>
+              <div >  <img src="static/ceo.jpg" class="mx-auto d-block" style="width:100%" alt="the chief executive officer "><h4  class="text-center" style="color: rgb(9, 9, 95); font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"></h4>
+
+              <p>info about the ceo</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur numquam, ut quaerat ex aliquid incidunt beatae aut, voluptatem et perferendis rerum accusantium voluptates. Excepturi repellendus commodi impedit dignissimos explicabo recusandae?</p>
+            </div>
+            <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 1500); // Change image every 2 seconds
+            }
+            </script>
+            <hr>
+            <div class="content">
+              <img src="static/civil3.jpg" alt="Bear" style="width:100%">
+              <h3 class="text-center">About US</h3>
+              <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+              <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+            </div>
+            <div class="row">
+              <button class="btn btn-prinmary" type="text"></button>
+              <div class="nav" style="width: 85%;">
+                <ul>
+                  <li><a href="project">Features and services</a></li>
+                  <li><a href="project">News</a></li>
+                  <li><a href="project">job carees</a></li>
+                </ul>
+                <div>
+                  <h2>Testimonials</h2>
+<p></p>
+
+<div class="container-left">
+  <img src="/w3images/bandmember.jpg" alt="Avatar" style="width:90px">
+  <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+  <p>John Doe saved us from a web disaster.</p>
+</div>
+
+<div class="container-left">
+  <img src="/w3images/avatar_g2.jpg" alt="Avatar" style="width:90px">
+  <p><span>Rebecca Flex.</span> CEO at Company.</p>
+  <p>No one is better than John Doe.</p>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+</body>
