@@ -52,8 +52,8 @@
         <div class="navbar">
             <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
             <a href="gallery.html"><i class="fa fa-image"></i> gallery</a> 
-            <a href="#"><i class="fa fa-fw fa-envelope"></i> About Us</a> 
-            <a href="#"><i class="fa fa-phone"></i> Contact Us</a>
+            <a href="about.html"><i class="fa fa-fw fa-envelope"></i> About Us</a> 
+            <a href="contact.html"><i class="fa fa-phone"></i> Contact Us</a>
           </div>
           <div id="logo" class="mt-1">
           
@@ -111,7 +111,7 @@
               <h6>The C.E.O</h6>
               <div >  <img src="static/ceo.jpg" class="mx-auto d-block" style="width:100%" alt="the chief executive officer "><h4  class="text-center" style="color: rgb(9, 9, 95); font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"></h4>
 
-              <p>info about the ceo</p>
+              <p class="text-center"style="color: darkturquoise;">About the Cheif executive Officer</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur numquam, ut quaerat ex aliquid incidunt beatae aut, voluptatem et perferendis rerum accusantium voluptates. Excepturi repellendus commodi impedit dignissimos explicabo recusandae?</p>
             </div>
             <script>
@@ -136,13 +136,40 @@
             }
             </script>
             <hr>
+            <div style="width: 100%; background-color: black;">
+            <div  class="w3-content w3-section " style="max-width:100%;" >
+              <img class="Slide w3-animate-fading" src="static/present.jpg" style="width:100%">
+        <img class="Slide w3-animate-fading" src="static/gp5.jpg" style="width:100%">
+        <img class="Slide w3-animate-fading" src="static/gp2.jpg" style="width:100%; height:60%">
+        <img class="Slide w3-animate-fading" src="static/gp4.jpg" style="width:100%">
+      </div>
+      
+      <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("Slide");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 3000);    
+      }
+      </script>
+      <p>Our Team Members</p>
+    </div>
+      <hr>
             <div class="content">
               <img src="static/civil3.jpg" alt="Bear" style="width:100%">
-              <h3 class="text-center">About US</h3>
+              <h3 class="text-center mt-2" style="color: darkturquoise;">About US</h3>
               <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
               <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
             </div>
-            <div class="row">
+            <div class="col-sm-2">
               <button class="btn btn-prinmary" type="text"></button>
               <div class="nav" style="width: 85%;">
                 <ul>
@@ -151,24 +178,82 @@
                   <li><a href="project">job carees</a></li>
                 </ul>
                 <div>
-                  <h2>Testimonials</h2>
-<p></p>
+                
 
-<div class="container-left">
-  <img src="/w3images/bandmember.jpg" alt="Avatar" style="width:90px">
-  <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
-  <p>John Doe saved us from a web disaster.</p>
-</div>
 
-<div class="container-left">
-  <img src="/w3images/avatar_g2.jpg" alt="Avatar" style="width:90px">
-  <p><span>Rebecca Flex.</span> CEO at Company.</p>
-  <p>No one is better than John Doe.</p>
-</div>
+  
 
                 </div>
               </div>
             </div>
           </div>
+          <footer>
+            <div class="container" style="background-color: rgb(248, 252, 20);">
+              <div class="row mt-2">
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                  <div>
+                      <img src="static/logo.jpg" class="mx-auto d-block mt-2" style="width:12%" alt=" "><h6  class="text-center" style="color: rgb(9, 9, 95); font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">prime chase company limited</h6>
+
+                    <p class="mb-30 footer-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad soluta facilis
+                      eos quia optio iusto odit atque eum tempore, quisquam officiis vero veniam hic,</p>
+                  </div>
+                </div>
+                <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6">
+                  <div class="">
+                    <h4>Quick Link</h4>
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#" class="text-decoration-none">Home</a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-decoration-none">About Us</a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-decoration-none">Service</a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-decoration-none">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6">
+                  <div>
+                    <h4>Service</h4>
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#" class="text-decoration-none">Marketing of materials</a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-decoration-none">Branding an industial project</a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-decoration-none">Workshop</a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-decoration-none">our site</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6">
+                  <div>
+                    <h4>Newsletter</h4>
+                    <div>
+                      <label for="Newsletter" class="form-label">Subscribe To Our Newsletter</label>
+                      <input type="text" class="form-control" Placeholder="Enter Your Email">
+                      <button class="btn btn-danger mt-3">Subscribe</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center">
+                <div class="copyright">
+                  <p>Developed and maintained by <a href="https://roartrading.xyz" target="_blank">zion web company</a></p>
+                </div>
+              </div>
+            </div>
+          </footer>
+          
         </div>
 </body>
